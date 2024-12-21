@@ -1,3 +1,0 @@
-model.ckpt
-psnr: 34.14, ssim: 0.9357	psnr: 31.50, ssim: 0.8930	psnr: 28.24, ssim: 0.8050	PSNR: 39.15, SSIM: 0.9844	PSNR: 31.34, SSIM: 0.9827
-
