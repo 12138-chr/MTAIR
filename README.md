@@ -1,6 +1,6 @@
 # **Multi-dimensional Visual Prompt Enhanced Image Restoration via Mamba-Transformer Aggregation**
 
-Aiwen Jiang, Hourong Chen, Zhiwen Chen, Jihua Ye, Mingwen Wang，“Multi-dimensional Visual Prompt Enhanced Image Restoration via Mamba-Transformer Aggregation”，arXiv, 2024
+Aiwen Jiang, Hourong Chen, Zhiwei Chen, Jihua Ye, Mingwen Wang，“Multi-dimensional Visual Prompt Enhanced Image Restoration via Mamba-Transformer Aggregation”，arXiv, 2024
 
 ### [Multi-dimensional Visual Prompt Enhanced Image Restoration via Mamba-Transformer Aggregation](https://arxiv.org/abs/2412.15845).
 
