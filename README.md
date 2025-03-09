@@ -13,7 +13,8 @@ Aiwen Jiang, Hourong Chen, Zhiwen Chen, Jihua Ye, Mingwen Wang，“Multi-dimens
  The self-attention mechanism of Transformer is applied to focus on channel modeling, avoiding high computation burdens that are in quadratic growth with image’s spatial dimensions.
  Moreover, to enrich informative prompts for effective image restoration, multi-dimensional prompt learning modules are proposed to learn prompt-flows from multi-scale encoder/decoder layers, benefiting for revealing underlying characteristic of various degradations from both spatial and channel perspectives,
  therefore, enhancing the capabilities of ”all-in-one” model to solve various restoration tasks. Extensive experiment results on several image restoration benchmark tasks such as image denoising, dehazing, and deraining, have demonstrated that the proposed method can achieve new state-of-the-art performance, compared with many popular mainstream methods.
- Related source codes and pre-trained parameters will be public on github https://github.com/12138-chr/MTAIR.\
+ Related source codes and pre-trained parameters will be public on github https://github.com/12138-chr/MTAIR.
+ 
  Index Terms—Image restoration, All-in-one, Mamba, Transformer, Prompt learning, Low-level vision
 
  ![image](https://github.com/user-attachments/assets/dd3b152c-a44f-4cc7-9da5-3db9e3b782fd)
@@ -24,7 +25,7 @@ The project is built with Python 3.8, PyTorch 1.8.1. CUDA 10.2, cuDNN 7.6.5
 ```
 pip install -r requirements.txt
 ```
-To use the selective scan with efficient hard-ware design, the library is needed to install with the folllowing command.
+To use the selective scan(Mamba SSM), the library is needed to install with the folllowing command.
 ```
 pip install causal_conv1d==1.0.0
 pip install mamba_ssm==1.0.1
