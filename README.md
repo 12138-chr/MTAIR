@@ -45,7 +45,8 @@ Denoising: [BSD400](https://drive.google.com/drive/folders/1O1Z8yEbLzndLzk9jK233
 Deraining: [Train100L&Rain100L](https://drive.google.com/drive/folders/1RjrjuGBK0jsQ5a5j1k-clsdxZkrqPQE2?usp=drive_link)
 
 Dehazing: [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/reside-v0) (OTS)
-The training data should be placed in directory where can be Denoise,Derain or Dehaze. After placing the training data the directory structure would be as follows: data/Train/{task_name}task_name
+
+The pre-trained model will be placed in the ckpt folder.The training data should be placed in directory where can be Denoise,Derain or Dehaze. After placing the training data the directory structure would be as follows: data/Train/{task_name}task_name
 ```
 └───Train
     ├───Dehaze
