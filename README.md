@@ -1,6 +1,6 @@
-# **Multi-dimensional Visual Prompt Enhanced Image Restoration via Mamba-Transformer Aggregation**
-Aiwen Jiang, Hourong Chen, Zhiwen Chen, Jihua Ye, Mingwen Wang，“Multi-dimensional Visual Prompt Enhanced Image Restoration via Mamba-Transformer Aggregation”，arXiv, 2024
-##[Multi-dimensional Visual Prompt Enhanced Image Restoration via Mamba-Transformer Aggregation](https://arxiv.org/abs/2412.15845).
+# **Multi-dimensional Visual Prompt Enhanced Image Restoration via Mamba-Transformer Aggregation**\
+Aiwen Jiang, Hourong Chen, Zhiwen Chen, Jihua Ye, Mingwen Wang，“Multi-dimensional Visual Prompt Enhanced Image Restoration via Mamba-Transformer Aggregation”，arXiv, 2024\
+### [Multi-dimensional Visual Prompt Enhanced Image Restoration via Mamba-Transformer Aggregation](https://arxiv.org/abs/2412.15845).
 
 
  **Abstract**—Image restoration is an important research topic that has wide industrial applications in practice. Traditional deep learning-based methods were tailored to specific degradation type, 
@@ -11,29 +11,29 @@ Aiwen Jiang, Hourong Chen, Zhiwen Chen, Jihua Ye, Mingwen Wang，“Multi-dimens
  The self-attention mechanism of Transformer is applied to focus on channel modeling, avoiding high computation burdens that are in quadratic growth with image’s spatial dimensions.
  Moreover, to enrich informative prompts for effective image restoration, multi-dimensional prompt learning modules are proposed to learn prompt-flows from multi-scale encoder/decoder layers, benefiting for revealing underlying characteristic of various degradations from both spatial and channel perspectives,
  therefore, enhancing the capabilities of ”all-in-one” model to solve various restoration tasks. Extensive experiment results on several image restoration benchmark tasks such as image denoising, dehazing, and deraining, have demonstrated that the proposed method can achieve new state-of-the-art performance, compared with many popular mainstream methods.
- Related source codes and pre-trained parameters will be public on github https://github.com/12138-chr/MTAIR.
+ Related source codes and pre-trained parameters will be public on github https://github.com/12138-chr/MTAIR.\
  Index Terms—Image restoration, All-in-one, Mamba, Transformer, Prompt learning, Low-level vision
 
  ![image](https://github.com/user-attachments/assets/dd3b152c-a44f-4cc7-9da5-3db9e3b782fd)
  
-##Installation
-The project is built with Python 3.8, PyTorch 1.8.1. CUDA 10.2, cuDNN 7.6.5//
+## Installation\
+The project is built with Python 3.8, PyTorch 1.8.1. CUDA 10.2, cuDNN 7.6.5
 ```
 pip install -r requirements.txt
 ```
-To use the selective scan with efficient hard-ware design, the library is needed to install with the folllowing command.//
+To use the selective scan with efficient hard-ware design, the library is needed to install with the folllowing command.
 ```
 pip install causal_conv1d==1.0.0
 pip install mamba_ssm==1.0.1
 ```
 
-##Results
+## Results
 ![image](https://github.com/user-attachments/assets/a124abde-d2bb-4d98-a13a-43865d5edb51)
 ![image](https://github.com/user-attachments/assets/c9201cdb-75b0-4568-a332-bfbef54406c2)
 ![image](https://github.com/user-attachments/assets/570fb6f7-576e-4124-819f-12028d5d7515)
 ![image](https://github.com/user-attachments/assets/4c4b3070-bdcd-40b0-9ad9-18a4440c95a2)
 
-##Data Download and Preparation
+## Data Download and Preparation
 Denoising: [BSD400](https://drive.google.com/drive/folders/1O1Z8yEbLzndLzk9jK233r8DEI-3Xmeoe?usp=drive_link), [WED](https://drive.google.com/drive/folders/1p7ax2daKZOjHyMA7UFZ3lcoRBeWtTmxn?usp=drive_link), [Urban100](https://drive.google.com/drive/folders/1QgXBf3LOKwZnnWQQBqDt56T630mq_o7v?usp=drive_link), [CBSD68](https://drive.google.com/drive/folders/1mgEDilXcRkE6bkQoGkK-wrf-OhkC2CpI?usp=drive_link)
 
 Deraining: [Train100L&Rain100L](https://drive.google.com/drive/folders/1RjrjuGBK0jsQ5a5j1k-clsdxZkrqPQE2?usp=drive_link)
